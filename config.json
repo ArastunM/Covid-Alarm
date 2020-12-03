@@ -1,0 +1,30 @@
+{
+  "retrieve": {
+    "news": {
+      "key": "ffd8f8103cab4138bd732c42f8ed414c",
+      "path": "https://newsapi.org/v2/top-headlines?",
+      "country": "gb"
+    },
+    "weather": {
+      "key": "f25d8c0f6e1b4204dc197b1885a927c5",
+      "path": "http://api.openweathermap.org/data/2.5/weather?",
+      "city": "Exeter"
+    },
+    "covid": {
+      "location": ["areaName=Exeter"],
+      "data_type": {
+        "areaName": "areaName",
+        "newCasesByPublishDate": "newCasesByPublishDate",
+        "cumCasesByPublishDate": "cumCasesByPublishDate",
+        "cumDeathsByDeathDate": "cumDeathsByDeathDate",
+        "cumDeaths28DaysByDeathDateRate": "cumDeaths28DaysByDeathDateRate"
+      }
+    }
+  },
+  "log_file": {
+    "file_name": "sys.log",
+    "format": "%(name)s - %(levelname)s - [%(asctime)s] - %(message)s"
+  },
+  "image": "alarmalarmoalarmo.png",
+  "notify_sound": "short_notification.mp3"
+}
