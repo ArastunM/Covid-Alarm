@@ -41,18 +41,3 @@ def announce(title: list, content: list, number: list, item='notification'):
     except RuntimeError or KeyError:
         # when engine is busy add to the queue
         QUEUE.append([title, content, number])
-
-
-def remove_from_queue(notification):
-    """Preventing removed notifications from being announced"""
-    global QUEUE
-    print(QUEUE)
-    print(QUEUE[0])
-    print(QUEUE[0][0])
-    try:
-        for item in QUEUE:
-            QUEUE[QUEUE.index(item)] = [i for i in item[0] if i['id'] != notification['id']]
-    except IndexError:
-        return
-    print(QUEUE)
-
