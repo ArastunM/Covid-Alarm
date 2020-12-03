@@ -1,12 +1,12 @@
 {
   "retrieve": {
     "news": {
-      "key": "ffd8f8103cab4138bd732c42f8ed414c",
+      "key": "api_key",
       "path": "https://newsapi.org/v2/top-headlines?",
       "country": "gb"
     },
     "weather": {
-      "key": "f25d8c0f6e1b4204dc197b1885a927c5",
+      "key": "api_key",
       "path": "http://api.openweathermap.org/data/2.5/weather?",
       "city": "Exeter"
     },
@@ -25,6 +25,6 @@
     "file_name": "sys.log",
     "format": "%(name)s - %(levelname)s - [%(asctime)s] - %(message)s"
   },
-  "image": "alarmalarmoalarmo.png",
+  "image": "alarm_icon.png",
   "notify_sound": "short_notification.mp3"
 }
