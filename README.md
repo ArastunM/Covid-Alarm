@@ -1,5 +1,5 @@
 ## Covid-aware Alarm Clock
-Covid-aware alarm clock is a python web-based application created 
+Covid-aware alarm clock is a Python Web-based application created 
 primarily using the Flask package. It servers the purpose of 
 helping the user keep up to date with the rapidly changing 
 world/events and promoting a better scheduled/planned daily routine.
@@ -35,7 +35,7 @@ Before the project is run, it should be ensured
 that the necessary modules/files are within appropriate
 directories
 
-The modules/files can be downloaded from the [GitHub repository](https://github.com/ArastunM/CA3.git)
+The modules/files can be downloaded from the [GitHub repository](https://github.com/ArastunM/Programming-CA3.git)
 
 The directory should look as below:
 
@@ -147,4 +147,4 @@ python -m pytest
 - Author - Arastun Mammadli
 - License - [MIT](LICENSE.txt)
 
-**Access link to [GitHub repository](https://github.com/ArastunM/CA3.git)**
+**Access link to [GitHub repository](https://github.com/ArastunM/Programming-CA3.git)**
